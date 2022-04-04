@@ -1,0 +1,97 @@
+.modal-button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.my-modal-button {
+  height: 3rem;
+  width: 6rem;
+  border-radius: 10px;
+  border: solid 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0.1rem 0.3rem;
+  color: white;
+  cursor: pointer;
+}
+
+.my-modal-button:after {
+  content: "";
+  position: absolute;
+  width: 6rem;
+  height: 3rem;
+  background-color: transparent;
+  border-radius: 10px;
+  z-index: -2;
+}
+.my-modal-button:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 3rem;
+  background: #90f556;
+  transition: all 0.3s;
+  border-radius: 10px;
+  z-index: -1;
+}
+.my-modal-button:hover {
+  color: #fff;
+}
+.my-modal-button:hover:before {
+  width: 6rem;
+}
+
+.modal-close-button {
+  height: 3rem;
+  width: 6rem;
+  border-radius: 10px;
+  border: solid 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0.1rem 0.3rem;
+  color: white;
+  cursor: pointer;
+}
+
+.modal-close-button:after {
+  content: "";
+  position: absolute;
+  width: 6rem;
+  height: 3rem;
+  background-color: transparent;
+  border-radius: 10px;
+  z-index: -2;
+}
+.modal-close-button:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 3rem;
+  background: #e3402d;
+  transition: all 0.3s;
+  border-radius: 10px;
+  z-index: -1;
+}
+.modal-close-button:hover {
+  color: #fff;
+}
+.modal-close-button:hover:before {
+  width: 6rem;
+}
+
+p.modal-text {
+  color: white;
+  font-size: 1rem;
+}
+
+.modal-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 1rem;
+}

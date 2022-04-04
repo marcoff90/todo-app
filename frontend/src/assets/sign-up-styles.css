@@ -1,0 +1,43 @@
+
+.signup-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 50vh;
+  width: 30vw;
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(8.5px);
+  -webkit-backdrop-filter: blur(8.5px);
+  border-radius: 10px;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
+  margin-top: 3rem;
+  padding-top: 3rem;
+}
+@media only screen and (max-width: 768px) {
+  .signup-container {
+    width: 90vw;
+    height: 85vh;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .signup-container {
+    width: 40vw;
+    height: 65vh;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .signup-container {
+    width: 30vw;
+    height: 70vh;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .signup-container {
+    width: 30vw;
+    height: 70vh;
+  }
+}

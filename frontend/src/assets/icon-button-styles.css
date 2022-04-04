@@ -1,0 +1,116 @@
+.icon-button {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  border: solid 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0.1rem 0.3rem;
+  cursor: pointer;
+}
+
+.icon-edit:after {
+  content: "";
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  background-color: transparent;
+  border-radius: 50%;
+  z-index: -2;
+}
+.icon-edit:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 3rem;
+  background: #47e3e6;
+  transition: all 0.3s;
+  border-radius: 10rem;
+  z-index: -1;
+}
+.icon-edit:hover {
+  color: #fff;
+}
+.icon-edit:hover:before {
+  width: 3rem;
+}
+
+.icon-complete:after {
+  content: "";
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  background-color: transparent;
+  border-radius: 50%;
+  z-index: -2;
+}
+.icon-complete:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 3rem;
+  background: #90f556;
+  transition: all 0.3s;
+  border-radius: 10rem;
+  z-index: -1;
+}
+.icon-complete:hover {
+  color: #fff;
+}
+.icon-complete:hover:before {
+  width: 3rem;
+}
+
+.icon-share:after {
+  content: "";
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  background-color: transparent;
+  border-radius: 50%;
+  z-index: -2;
+}
+.icon-share:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 3rem;
+  background: #f0d943;
+  transition: all 0.3s;
+  border-radius: 10rem;
+  z-index: -1;
+}
+.icon-share:hover {
+  color: #fff;
+}
+.icon-share:hover:before {
+  width: 3rem;
+}
+
+.icon-delete:after {
+  content: "";
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  background-color: transparent;
+  border-radius: 50%;
+  z-index: -2;
+}
+.icon-delete:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 3rem;
+  background: #e3402d;
+  transition: all 0.3s;
+  border-radius: 10rem;
+  z-index: -1;
+}
+.icon-delete:hover {
+  color: #fff;
+}
+.icon-delete:hover:before {
+  width: 3rem;
+}

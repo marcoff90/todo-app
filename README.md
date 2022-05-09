@@ -26,9 +26,6 @@
 - add animations cascading for tasks
 - completing tasks by moving them from one column to another
 
-### To fix
-- animation of navbar not moving with the tasks
-
 ### [Backend Docs](backend.md)
 
 ![Alt Text](https://github.com/marcoff90/todo-app/blob/master/app_gif/ToDoApp-v10.gif)

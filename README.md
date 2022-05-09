@@ -31,8 +31,6 @@
 
 ### [Backend Docs](backend.md)
 
-### [Frontend Docs](frontend.md)
-
 ![Alt Text](https://github.com/marcoff90/todo-app/blob/master/app_gif/ToDoApp-v10.gif)
 
 
